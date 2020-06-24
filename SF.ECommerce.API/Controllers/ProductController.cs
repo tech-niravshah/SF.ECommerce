@@ -26,6 +26,9 @@ namespace SF.ECommerce.API.Controllers
 
         public ProductController(ILogger<ProductController> logger)
         {
+            #region
+            // SubModule Testing
+            #endregion
             _logger = logger;
 
             var proxyFactory = new ServiceProxyFactory(
